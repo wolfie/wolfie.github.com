@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Infrequent Influxes of Inspiration :: {{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/styles/style.css" media="screen"/>
+		<link rel="alternate" title="I3RSS" href="/feed.xml" type="application/atom+xml"> 
+	</head>
+	<body>
+		<div id="main">
+			<div id="heading">
+				<a href="/"><img src="/styles/heading.png" alt="Infrequent Influxes of Inspiration"  /></a>
+			</div>
+			<div id="content">
+				{{ content }}
+			</div><!--
+			--><aside>
+				<h1>most recent</h1>
+				<dl>
+					{% for post in site.posts %}
+					<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+					<dd><time>{{ post.date | date:"%d.%m.%Y at %H:%M" }}</time></dd>
+					{% endfor %}
+				</dl>
+				
+				<h1>who is this guy?</h1>
+				<p id="about">
+					Hi, my name is Henrik Paul. I'm a professional software developer from the little city of <a href="http://maps.google.com/maps?q=Raisio, Finland&amp;z=14" target="_blank">Raisio, Finland</a>. I currently work for <a href="http://www.itmill.com" target="_blank">IT Mill</a> and mostly with <a href="http://vaadin.com/" target="_blank">Vaadin</a>.
+				</p>
+				</div>
+			</aside>
+		</div>
+	</body>
+</html>

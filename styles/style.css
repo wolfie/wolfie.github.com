@@ -1,0 +1,164 @@
+@IMPORT url('highlight.css');
+
+body { 
+	font-size: 10pt; 
+	padding: 0;
+	margin: 0;
+}
+
+h1 { 
+	font-size: 300%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+}
+
+#content #frontpage h1 {
+	font-size: 200%;
+	text-shadow: none;
+}
+
+#content #frontpage h1 a {
+	color: black;
+}
+
+#content #frontpage .summary {
+	line-height: 100%;
+}
+
+#heading img {
+	padding: 2em;
+	border: 0;
+}
+
+#heading, h1, h2, h3, aside a {
+	font-family: "Garamond", serif;
+}
+
+
+#content h2 {
+	font-size: 200%;
+	margin-bottom: 1pt;
+	border-bottom: 2px solid #ddd;
+	line-height: 70%;
+}
+
+#content h3 {
+	font-size: 150%;
+	margin-bottom: 1pt;
+}
+
+#content h2 + p, 
+#content h3 + p {
+	margin-top: 1pt;
+}
+
+#content h1 {
+	text-shadow: #ddd 2px 2px 2px;
+}
+
+#content, aside {
+	font-family: "Verdana", "Arial", sans-serif;
+}
+
+#content {
+	position: absolute;
+	margin-left: 20em;
+	width: 50em;
+	padding: 0.5em;
+	padding-left: 1.5em;
+	border-left: 1px solid #aaa;
+}
+
+#content p, #content li {
+	line-height: 1.8em;
+	text-align: left;
+	color: #333
+}
+
+aside {
+	display: block;
+	width: 17.5em;
+	padding: 0;
+	margin: 0 0 0 1em;
+}
+
+aside h1 {
+	font-size: 175%;
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+aside dl {
+	margin: 0;
+}
+
+aside dt:first-child {
+	margin-top: 0;
+}
+
+aside dt {
+	margin-top: 1em;
+}
+
+aside dd {
+	margin-top: -0.4em;
+	margin-left: 0;
+}
+
+aside time {
+	font-size: 80%;
+	font-style: italic;
+	font-family: "Garamond", serif;
+}
+
+aside a {
+	display: block;
+	font-weight: bold;
+	color: #01282E;
+}
+
+aside h1:first-child {
+	margin-top: 0;
+}
+
+aside h1 {
+	margin-top: 1em;
+}
+
+#content > h1 {
+	margin-top: 0;
+}
+
+pre {
+	background-color: #eee;
+	border-left: 2px solid #ccc;
+	padding: 0.5em;
+}
+
+#about {
+	font-size: 80%;
+	color: #555;
+}
+
+#about a {
+	font: inherit;
+	display: inline;
+	text-decoration: none;
+	font-style: italic;
+	color: #555;
+}
+
+#about a:hover {
+	border-bottom: 1px dashed gray;
+}
+
+#wc {
+	float: right;
+	font-size: smaller;
+	font-family: "Garamond", serif;
+	font-style: italic;
+}

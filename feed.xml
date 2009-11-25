@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Infrequent Influxes of Inspiration</title>
+	<link href="http://wolfie.github.com/" />
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<author>
+		<name>Henrik Paul</name>
+	</author>
+	
+	{% for post in site.posts limit:10 %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<link>{{ post.url }}</link>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<summary>
+			{{ post.content | strip_html | truncatewords:100 }}
+		</summary>
+	</entry>
+	{% endfor %}
+</feed>
