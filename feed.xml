@@ -13,8 +13,8 @@
 	{% for post in site.posts limit:10 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link>{{ post.url }}</link>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<link>http://wolfie.github.com{{ post.url }}</link>
+		<pubDate>{{ post.date | truncate:10 | date_to_xmlschema }}</pubDate>
 		<summary>
 			{{ post.summary }}
 		</summary>
