@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Treading New Ground
-date: 2009-10-25 20:15
 summary: In this article, I explain the steps I took and difficulties with their respective solutions to a Vaadin component I wrote from scratch.
 ---
 

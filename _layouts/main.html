@@ -18,7 +18,7 @@
 				<dl>
 					{% for post in site.posts %}
 					<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-					<dd><time>{{ post.date | date:"%d.%m.%Y at %H:%M" }}</time></dd>
+					<dd><time>{{ post.date | date:"%d.%m.%Y" }}</time></dd>
 					{% endfor %}
 				</dl>
 				
