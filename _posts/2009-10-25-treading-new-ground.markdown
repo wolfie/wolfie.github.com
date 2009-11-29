@@ -142,7 +142,7 @@ As you can easily see, some pretty generic keys are used by Vaadin. I would've l
 
 ## Problem #4: Cap'n
 
-I had to take responsibility over the contained Component's caption, since, well, that's what you do in Vaadin. Apparently, Vaadin thinks it shoul be done with a `VCaption` widget, since that's all you are given. I found that strange, since all I needed was a simple `<div>` with a string inside.
+I had to take responsibility over the contained Component's caption, since, well, that's what you do in Vaadin. Apparently, Vaadin thinks it should be done with a `VCaption` widget, since that's all you are given. I found that strange, since all I needed was a simple `<div>` with a string inside.
 
 ### Solution
 
