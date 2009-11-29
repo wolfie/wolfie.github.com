@@ -139,12 +139,12 @@ pre {
 	padding: 0.5em;
 }
 
-#about {
+.about {
 	font-size: 80%;
 	color: #555;
 }
 
-#about a {
+.about a {
 	font: inherit;
 	display: inline;
 	text-decoration: none;
@@ -152,7 +152,7 @@ pre {
 	color: #555;
 }
 
-#about a:hover {
+.about a:hover {
 	border-bottom: 1px dashed gray;
 }
 
