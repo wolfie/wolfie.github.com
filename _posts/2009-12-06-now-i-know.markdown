@@ -64,3 +64,5 @@ The sensationalist in me, naturally, interpolated that into written-in-stone pro
 ## (Postscript)
 
 I create a vote about this at [Vaadin's UserVoice](http://vaadin.uservoice.com/pages/20474-general/suggestions/408418-simplify-property-variable-usage) pages. Feel free to vote on this matter, to gain more official attention.
+
+Also, I [updated](http://dev.vaadin.com/changeset/10170) the Drawer into version 1.1 with [proper variable usage](http://dev.vaadin.com/browser/incubator/Drawer/src/com/vaadin/incubator/drawer/Drawer.java?rev=10170#L145).
