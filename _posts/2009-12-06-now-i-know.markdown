@@ -60,3 +60,7 @@ So, this is the part why I got confused: The API for handling the UIDL makes no 
 So I asked the architects: Why? Why should I, as a programmer, care whether I use something called properties instead of something called variables (or the other way around) when all I want is put data across the server/client border? Especially when the is no apparent distinction for the programmer. The answer: Maybe, just maybe, the separation _is_ out-dated.
 
 The sensationalist in me, naturally, interpolated that into written-in-stone promise: in the future, Vaadin will scrap the distinction, and turn into a single method of data transportation. _Viva la_ simplicity!
+
+## (Postscript)
+
+I create a vote about this at [Vaadin's UserVoice](http://vaadin.uservoice.com/pages/20474-general/suggestions/408418-simplify-property-variable-usage) pages. Feel free to vote on this matter, to gain more official attention.
