@@ -1,0 +1,62 @@
+---
+layout: post
+title: Now I Know
+summary: After getting some more detailed information, I fill in some of my ignorance from the previous post.
+---
+
+In the post a few days ago, called [Treading New Ground](/2009/11/25/treading-new-ground.html) I wrote the following:
+
+> I knew about sending data from the server component to the client widget via variables and properties (I don't know the difference between the two, honestly. The Book [of Vaadin] doesn't shed much light on the distinction, either). So, sending puny key/value pairs is not that big a deal _[&hellip;]_
+
+Well, I have my answer now. Let me tell you my findings.
+
+## Technically Speaking
+
+The difference is subtle in practice, while, in thought, it's pretty considerable. Properties are meant to be used for one-way server-to-client communication. The server sends a property for the client to read &ndash; once that's done, it's over. 
+
+A variable, on the other hand, is something that is meant to be varied by the widget. It's the two-way changing data. It's a boolean yes/no in a checkbox, or a piece of text in a text field.
+
+In my ignorance, I used properties in the server &rarr; client direction, and variables on the return trip. This happens to work pretty well. But there's the crux: it _happens_ to work. This is, in fact, a bug in Vaadin. You should not be able to send a variable change from client to server, unless the server has first registered the existence of the variable. I guess I need to patch stuff up pretty soon, before someone patches Vaadin.
+
+## Historical Reasons
+
+Well, it was pretty obvious, wasn't it? 
+
+Vaadin, née IT Mill Toolkit, née Millstone, has been around for a good amount of years. While it has taken its time to mature, there has been some rewrites, both smaller and larger ones. So, sure, there's bound to be some left-over code, and remnants of old design decisions, alone in some nook where it doesn't disturb anyone. Just like that roll of packing tape you put in the back corner of that cupboard when you moved in to your apartment.
+
+The specific reason lies within the UIDL. Back when we had IT Mill Toolkit 4 and Vaadin wasn't even a glimpse in anyone's eyes, UIDL was rendered as XML, instead of the current JSON format. Let's take a quick look at the two formats, representing a state of a Button component:
+
+{% highlight javascript %}
+// The JSON format first
+["button",
+ {"id": "PID2", 
+  "immediate": true,
+  "caption": "My Button", 
+  "focusid": 1,
+  "v": {
+  	"state": false
+  }
+ }
+]
+{% endhighlight %}
+
+{% highlight xml %}
+<!-- ...and the XML version -->
+<button id="PID2" immediate="true" caption="My Button" focusid="1">
+  <boolean id="v1" name="state" value="false"></boolean>
+</button>
+{% endhighlight %}
+
+As you might see, the two are very alike in their payload data, with the distinction of the XML having explicitly typed variables ("`state`" in our little example). That's one considerable difference between variables and properties. 
+
+Another difference emerges from simply looking at the two syntaxes. I think it's pretty clear from the XML format that this button has a boolean value that might change since it's so spearate from the Button's values themselves. The JSON, on the other hand, seems pretty dynamic all-round, and by the look of it, all values seem very changeable.
+
+These two distinctions makes me understand the historical reason for having and keeping properties and variables separate.
+
+## One Should Be Enough to Tango
+
+So, this is the part why I got confused: The API for handling the UIDL makes no distinction between variables or properties - you still have a bunch of overloaded `addProperty` and `addVariable` methods. Analogously, on the client side, you have `getFooProperty()` and `getFooVariable()` for all supported data types, spitting out explicitly typed values from the UIDL. In the programmer's perspective, there is no known distinction between the two. 
+
+So I asked the architects: Why? Why should I, as a programmer, care whether I use something called properties instead of something called variables (or the other way around) when all I want is put data across the server/client border? Especially when the is no apparent distinction for the programmer. The answer: Maybe, just maybe, the separation _is_ out-dated.
+
+The sensationalist in me, naturally, interpolated that into written-in-stone promise: in the future, Vaadin will scrap the distinction, and turn into a single method of data transportation. _Viva la_ simplicity!

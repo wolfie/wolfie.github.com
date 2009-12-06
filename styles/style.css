@@ -77,6 +77,25 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333
 }
 
+#content blockquote {
+	background-color: #f0f0f0;
+	padding: 0.5em;
+	margin: 1em 0 1em 2em;
+	border-left: 0.5em solid #ddd;
+}
+
+#content blockquote p {
+	font-family: "Garamond", serif;
+}
+
+#content blockquote p:first-child {
+	margin-top: 0;
+}
+
+#content blockquote p:last-child {
+	margin-bottom: 0;
+}
+
 aside {
 	display: block;
 	width: 17.5em;
