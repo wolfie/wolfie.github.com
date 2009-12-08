@@ -4,6 +4,8 @@ title: Now I Know
 summary: After getting some more detailed information, I fill in some of my ignorance from the previous post.
 ---
 
+**Update 08.12.2009:** I have misleadingly used the term "property", when it, in fact, should be "attribute". I'm very sorry for this rookie mistake. The article is now corrected accordingly.
+
 In the post a few days ago, called [Treading New Ground](/2009/11/25/treading-new-ground.html) I wrote the following:
 
 > I knew about sending data from the server component to the client widget via variables and properties (I don't know the difference between the two, honestly. The Book [of Vaadin] doesn't shed much light on the distinction, either). So, sending puny key/value pairs is not that big a deal _[&hellip;]_
@@ -12,7 +14,7 @@ Well, I have my answer now. Let me tell you my findings.
 
 ## Technically Speaking
 
-The difference is subtle in practice, while, in thought, it's pretty considerable. Properties are meant to be used for one-way server-to-client communication. The server sends a property for the client to read &ndash; once that's done, it's over. 
+The difference is subtle in practice, while, in thought, it's pretty considerable. Properties are meant to be used for one-way server-to-client communication. The server sends a attribute for the client to read &ndash; once that's done, it's over. 
 
 A variable, on the other hand, is something that is meant to be varied by the widget. It's the two-way changing data. It's a boolean yes/no in a checkbox, or a piece of text in a text field.
 
@@ -55,7 +57,7 @@ These two distinctions makes me understand the historical reason for having and 
 
 ## One Should Be Enough to Tango
 
-So, this is the part why I got confused: The API for handling the UIDL makes no distinction between variables or properties - you still have a bunch of overloaded `addProperty` and `addVariable` methods. Analogously, on the client side, you have `getFooProperty()` and `getFooVariable()` for all supported data types, spitting out explicitly typed values from the UIDL. In the programmer's perspective, there is no known distinction between the two. 
+So, this is the part why I got confused: The API for handling the UIDL makes no distinction between variables or properties - you still have a bunch of overloaded `addAttribute` and `addVariable` methods. Analogously, on the client side, you have `getFooAttribute()` and `getFooVariable()` for all supported data types, spitting out explicitly typed values from the UIDL. In the programmer's perspective, there is no known distinction between the two. 
 
 So I asked the architects: Why? Why should I, as a programmer, care whether I use something called properties instead of something called variables (or the other way around) when all I want is put data across the server/client border? Especially when the is no apparent distinction for the programmer. The answer: Maybe, just maybe, the separation _is_ out-dated.
 
