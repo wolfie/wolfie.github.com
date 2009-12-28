@@ -77,6 +77,19 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333
 }
 
+#content p a img {
+	border: 1px solid #aaa;
+	margin: 3px;
+}
+
+#content p a img.right {
+	float: right;
+}
+
+#content p a img.left {
+	float: left;
+}
+
 #content blockquote {
 	background-color: #f0f0f0;
 	padding: 0.5em;
