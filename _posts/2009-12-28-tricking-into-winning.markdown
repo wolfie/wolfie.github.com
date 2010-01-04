@@ -1,7 +1,7 @@
 ---
 title: Tricking Us into Winning
 layout: post
-summary:
+summary: A post where I think about the fact that a little bit of practical psychology can be enormously beneficial for everyone.
 ---
 <a href="http://www.flickr.com/photos/pinkmoose/381132237/" title="block heater by PinkMoose, on Flickr"><img src="http://farm1.static.flickr.com/154/381132237_145ed01899_m.jpg" width="240" height="177" alt="block heater" class="right"/></a>
 
