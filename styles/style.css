@@ -78,8 +78,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #content p a img {
-	border: 1px solid #aaa;
+	border: 0;
 	margin: 3px;
+	padding-bottom: 10px;
+	background-image: url('/styles/imgshadow.png');
+	background-position: bottom center;
+	background-repeat: none;
 }
 
 #content p a img.right {
