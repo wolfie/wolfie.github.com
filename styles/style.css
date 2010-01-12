@@ -6,6 +6,10 @@ body {
 	margin: 0;
 }
 
+p {
+	margin: 1em 0;
+}
+
 h1 { 
 	font-size: 300%;
 }
@@ -21,10 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #content #frontpage h1 a {
 	color: black;
+	text-decoration: none;
 }
 
-#content #frontpage .summary {
-	line-height: 100%;
+#content #frontpage .summary, 
+#content #frontpage .articlelink {
+	line-height: 120%;
+	margin: 0.5em 0;
+}
+
+#content #frontpage .articlelink {
+	margin-bottom: 1.5em;
 }
 
 #heading img {
