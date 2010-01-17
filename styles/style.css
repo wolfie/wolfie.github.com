@@ -18,6 +18,23 @@ h1, h2, h3, h4, h5, h6 {
 	color: black;
 }
 
+ul {
+	margin: 1em 1em 1em 2em;
+}
+
+ul > li {
+	list-style-position: outside;
+	list-style-type: disc;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
 #content #frontpage h1 {
 	font-size: 200%;
 	text-shadow: none;
