@@ -17,11 +17,15 @@
 			--><aside>
 				<h1>most recent</h1>
 				<dl>
-					{% for post in site.posts %}
+					{% for post in site.posts | limit:10 %}
 					<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
 					<dd><time>{{ post.date | date:"%d.%m.%Y" }}</time></dd>
 					{% endfor %}
 				</dl>
+				
+				{% if site.posts.size > 10 %}
+				<em>There are more posts - index is coming...</em>
+				{% endif %}
 				
 				<h1>who is this guy?</h1>
 				<p class="about">
