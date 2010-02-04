@@ -1,7 +1,7 @@
 ---
 title: What About Bob?
 layout: post
-summary: 
+summary: A quick status report on Bob, the build system.
 ---
 
 I'm positively surprised of the warm reception my idea of [an XML-less build system][announcebob] got. I have already started working on something that might be called "a start", and I'm enthusiastic enough to say that I think I like what I have thus far.
