@@ -41,7 +41,7 @@ The build system shouldn't require much from your project. Some default assumpti
 
 ### OS independent
 
-In the spirit of information hiding, and portability, if the script works in one computer, it should work on all computers. If (and that's a big '_if_') something is environment-specific, it should be 
+In the spirit of information hiding, and portability, if the script works in one computer, it should work on all computers. If (and that's a big '_if_') something is environment-specific, it should be configurable by some sort of external resources. Probably by properties-files.
 
 ### Packages JARs, WARs and the like
 
