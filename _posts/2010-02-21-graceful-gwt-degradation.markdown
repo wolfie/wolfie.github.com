@@ -215,4 +215,4 @@ All this makes me think that individual widget-makers aren't really the focus gr
 
 But don't touch the ClientBundle unless you know what you're doing. While it might feel less magic once you get to know it, nobody will be able to theme your component, if you do it this way. But if do want to use it, now you have a better start at it than I had.
 
-If you want to give the component a try, it's up at [http://henrik.virtuallypreinstalled.com](http://henrik.virtuallypreinstalled.com). There's also a thread about the component on [Vaadin's forums](http://vaadin.com/forum/-/message_boards/message/117816). You're welcome to comment the article itself below.
+If you want to give the component a try, it's up at [http://henrik.virtuallypreinstalled.com/ColumnText](http://henrik.virtuallypreinstalled.com/ColumnText). There's also a thread about the component on [Vaadin's forums](http://vaadin.com/forum/-/message_boards/message/117816). You're welcome to comment the article itself below.
