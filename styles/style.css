@@ -1,13 +1,13 @@
 @IMPORT url('highlight.css');
 
 body { 
-	font-size: 10pt; 
+	font-size: 9pt; 
 	padding: 0;
 	margin: 0;
 }
 
 p {
-	margin: 1em 0;
+	margin: 2em 0 1em 0;
 }
 
 h1 { 
@@ -51,8 +51,17 @@ strong {
 	margin: 0.5em 0;
 }
 
+#content #frontpage .articleseparator {
+	height: 1em;
+	margin: 2em 0;
+	border: 0;
+	background-color: #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 #content #frontpage .articlelink {
-	margin-bottom: 5em;
 	text-align: right;
 }
 
@@ -71,6 +80,7 @@ strong {
 	margin-bottom: 1pt;
 	border-bottom: 2px solid #ddd;
 	line-height: 70%;
+	margin-top: 1em;
 }
 
 #content h3 {
@@ -132,6 +142,11 @@ strong {
 
 #content blockquote p {
 	font-family: "Garamond", serif;
+	font-style: italic;
+}
+
+#content blockquote p em {
+	font-style: normal;
 }
 
 #content blockquote p:first-child {
@@ -140,6 +155,32 @@ strong {
 
 #content blockquote p:last-child {
 	margin-bottom: 0;
+}
+
+#content ol li {
+	list-style-type: decimal;
+	font-family: "Garamond", serif;
+	font-style: italic;
+}
+
+#content strong {
+	font-style: inherit;
+}
+
+#content em {
+	font-weight: inherit;
+}
+
+#content ol {
+	margin: 1em 0;
+}
+
+#content li {
+	list-style-position: outside;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	line-height: 100%;
+	font-size: 120%;
 }
 
 aside {
