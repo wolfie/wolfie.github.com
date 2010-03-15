@@ -71,7 +71,7 @@ strong {
 }
 
 #heading, h1, h2, h3, aside a {
-	font-family: "Garamond", serif;
+	font-family: "Times", serif;
 }
 
 
@@ -141,7 +141,7 @@ strong {
 }
 
 #content blockquote p {
-	font-family: "Garamond", serif;
+	font-family: "Times", serif;
 	font-style: italic;
 }
 
@@ -159,7 +159,7 @@ strong {
 
 #content ol li {
 	list-style-type: decimal;
-	font-family: "Garamond", serif;
+	font-family: "Times", serif;
 	font-style: italic;
 }
 
@@ -218,7 +218,7 @@ aside dd {
 aside time {
 	font-size: 80%;
 	font-style: italic;
-	font-family: "Garamond", serif;
+	font-family: "Times", serif;
 }
 
 aside a {
@@ -265,6 +265,6 @@ pre {
 #wc {
 	float: right;
 	font-size: smaller;
-	font-family: "Garamond", serif;
+	font-family: "Times", serif;
 	font-style: italic;
 }
