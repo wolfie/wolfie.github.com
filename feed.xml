@@ -20,8 +20,11 @@ layout: nil
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://wolfie.github.com{{ post.id }}</id>
 		<summary>
-			{{ post.summary }}
+			{{ post.summary | xml_escape }}
 		</summary>
+		<content>
+			{{ post.content | xml_escape }}
+		</content>
 	</entry>
 	{% endfor %}
 </feed>
