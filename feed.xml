@@ -27,4 +27,4 @@ layout: nil
 		</content>
 	</entry>
 	{% endfor %}
-</feed>
+</feed> 
