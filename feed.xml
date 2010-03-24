@@ -22,8 +22,8 @@ layout: nil
 		<summary>
 			{{ post.summary }}
 		</summary>
-		<content>
-			{{ post.content }}
+		<content type="html">
+			{{ post.content | xml_escape }}
 		</content>
 	</entry>
 	{% endfor %}
