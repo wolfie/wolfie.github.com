@@ -20,10 +20,10 @@ layout: nil
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://wolfie.github.com{{ post.id }}</id>
 		<summary>
-			{{ post.summary | xml_escape }}
+			{{ post.summary }}
 		</summary>
 		<content>
-			{{ post.content | xml_escape }}
+			{{ post.content }}
 		</content>
 	</entry>
 	{% endfor %}
