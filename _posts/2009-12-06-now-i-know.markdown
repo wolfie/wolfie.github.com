@@ -24,7 +24,7 @@ In my ignorance, I used properties in the server &rarr; client direction, and va
 
 Well, it was pretty obvious, wasn't it? 
 
-Vaadin, née IT Mill Toolkit, née Millstone, has been around for a good amount of years. While it has taken its time to mature, there has been some rewrites, both smaller and larger ones. So, sure, there's bound to be some left-over code, and remnants of old design decisions, alone in some nook where it doesn't disturb anyone. Just like that roll of packing tape you put in the back corner of that cupboard when you moved in to your apartment.
+Vaadin, n&eacute;e IT Mill Toolkit, n&eacute;e Millstone, has been around for a good amount of years. While it has taken its time to mature, there has been some rewrites, both smaller and larger ones. So, sure, there's bound to be some left-over code, and remnants of old design decisions, alone in some nook where it doesn't disturb anyone. Just like that roll of packing tape you put in the back corner of that cupboard when you moved in to your apartment.
 
 The specific reason lies within the UIDL. Back when we had IT Mill Toolkit 4 and Vaadin wasn't even a glimpse in anyone's eyes, UIDL was rendered as XML, instead of the current JSON format. Let's take a quick look at the two formats, representing a state of a Button component:
 
