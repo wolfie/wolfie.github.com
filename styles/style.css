@@ -116,7 +116,7 @@ strong {
 	color: #333
 }
 
-#content p a img {
+#content p img {
 	border: 0;
 	margin: 3px;
 	padding-bottom: 10px;
@@ -125,11 +125,11 @@ strong {
 	background-repeat: none;
 }
 
-#content p a img.right {
+#content p img.right {
 	float: right;
 }
 
-#content p a img.left {
+#content p img.left {
 	float: left;
 }
 
