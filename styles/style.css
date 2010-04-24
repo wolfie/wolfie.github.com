@@ -246,8 +246,15 @@ pre {
 }
 
 .about {
-	font-size: 80%;
 	color: #555;
+}
+
+h1.about {
+	border-color: #aaa;
+}
+
+p.about {
+	font-size: 80%;
 }
 
 .about a {
@@ -267,4 +274,32 @@ pre {
 	font-size: smaller;
 	font-family: "Times", serif;
 	font-style: italic;
+}
+
+#sitemaplink {
+	font-weight: normal;
+	font-style: italic;
+	color: #888;
+	visibility: hidden;
+}
+
+aside:hover #sitemaplink {
+	visibility: inherit;
+}
+
+#sitemap a {
+	font-family: "Times", serif;
+	font-size: 15pt;
+	line-height: 150%;
+	color: black;
+}
+
+#sitemap time {
+	font-style: italic;
+	font-size: smaller;
+	color: #888;
+}
+
+#sitemap p {
+	line-height: 120%;
 }

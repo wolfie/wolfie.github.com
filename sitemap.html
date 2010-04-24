@@ -1,0 +1,16 @@
+---
+layout: main
+title: Sitemap
+---
+
+<div id="sitemap">
+{% for post in site.posts %}
+	<p>
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	&ndash; 
+	<time>{{ post.date | date:"%A, %d.%m.%Y" }}</time>
+	<br/>
+	{{ post.summary }}
+	</p>
+{% endfor %} 
+</div>
