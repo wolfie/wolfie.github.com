@@ -175,7 +175,7 @@ strong {
 	margin: 1em 0;
 }
 
-#content li {
+#content ol > li {
 	list-style-position: outside;
 	margin-left: 2em;
 	margin-bottom: 1em;
