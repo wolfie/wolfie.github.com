@@ -4,11 +4,11 @@ layout: post
 summary: 
 ---
 
-As I've [previously][tiw] mentioned, in addition to programming, I've long been fascinated by what I call _practical psychology_. The means of affecting another person, without making an apparent or direct effort to do so.
+As I've [previously][tiw] mentioned, in addition to programming, I've long been fascinated by what I call _practical psychology_, that is, the means of affecting another person, without making an apparent or direct effort to do so.
 
 [tiw]: /2009/12/28/tricking-into-winning.html
 
-In this piece I'm dabbling into pricing and money is a topic close to heart for many Finns. We are notably <strike>frugal</strike>cheap. Ask Joe Average (or, perhaps more suitably, Pekka Average), and he'll definitely choose price over quality any day. This probably applies to many people all over the world, but especially for us Finns.
+In this piece I'm dabbling into pricing and money is a topic close to the heart for many Finns. We are notably <strike>frugal</strike>cheap. Ask Joe Average (or, perhaps more suitably, Pekka Average), and he'll definitely choose price over quality any day. This probably applies to many people all over the world, but especially for us Finns.
 
 There's a tendency that I've noticed in real life, and I wonder if it's just me, or is there something to it.
 
@@ -32,7 +32,7 @@ Ignoring the sudden anger because of the jump in prices, you'd still be thirsty 
 
 My theory is that the latter price list encourages people to buy a larger cup than the first list. That's because, largely thanks to the algebra-centric math education in schools, the brain recognizes and emphasizes the price-to-value ratio: You pay _x_ to get _n_ amount of _y_ &mdash; solve for lowest _x_/_n_. 
 
-In the first case, the ratio is a constant 5, or 5&euro; to the liter. In this case, what matters is how thirsty you are versus the less money you part with, the more money you have at the end of the day. Rational, isn't it?
+In the first case, the ratio is a constant 5, or 5&euro; to the liter. In this case, what matters is how thirsty you are versus how much you want to spend. Rational, isn't it?
 
 In the second case, however, something happens. First of all, the ratio isn't constant, but it drops: 10&euro;/L, 7.5&euro;/L and 5&euro;/L, respectively. The second enforcer is the thought of _"it's a mere 50 cents to double the cup size"_. It's easier to lean towards the larger cup, because that's where the "sweet spot" is.
 
