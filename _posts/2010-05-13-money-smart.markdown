@@ -1,7 +1,7 @@
 ---
 title: Money-smart?
 layout: post
-summary: 
+summary: An observational piece, analyzing how prices can be designed to make people want to pay more than they need.
 ---
 
 As I've [previously][tiw] mentioned, in addition to programming, I've long been fascinated by what I call _practical psychology_, that is, the means of affecting another person, without making an apparent or direct effort to do so.
