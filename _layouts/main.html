@@ -3,8 +3,10 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 		<title>{{ page.title }}; Infrequent Influxes of Inspiration</title>
-		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.0.0/build/cssreset/reset-min.css"> 
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.0.0/build/cssreset/reset-min.css" media="screen"/> 
 		<link rel="stylesheet" type="text/css" href="/styles/style.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Reenie+Beanie"/>
+		<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
 		<link rel="alternate" title="I3RSS" href="/feed.xml" type="application/atom+xml"> 
 	</head>
 	<body>
@@ -17,14 +19,14 @@
 			</div><!--
 			--><aside>
 				<h1>most recent</h1>
-				<dl>
-					{% for post in site.posts | limit:10 %}
-					<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-					<dd><time>{{ post.date | date:"%d.%m.%Y" }}</time></dd>
-					{% endfor %}
-				</dl>
+				{% for post in site.posts | limit:10 %}
+					<a href="{{ post.url }}"><div class="menulink">
+						<div class="title">{{ post.title }}</div>
+						<time>{{ post.date | date:"%d.%m.%Y" }}</time>
+					</div></a>
+				{% endfor %}
 				
-				<p><a href="/sitemap.html#older" id="sitemaplink">&hellip;to the archives!</a></p>
+				<a href="/sitemap.html#older" id="sitemaplink">&hellip;to the archives!</a>
 
 				
 				<h1 class="about">who is this guy?</h1>
