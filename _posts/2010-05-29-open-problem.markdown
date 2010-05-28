@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bob's gone Open Problem
+title: Bob's Gone Open Problem
 summary: While open source is a terrific way to look at various algorithms to certain problems, you need something else to learn the architecture.
 ---
 
