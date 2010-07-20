@@ -52,6 +52,11 @@ strong {
 	font-weight: bold;
 }
 
+abbr, acronym {
+	border-bottom: 1px dashed gray;
+	cursor: help;
+}
+
 #content #frontpage h1 {
 	font-size: 200%;
 	text-shadow: none;
@@ -262,19 +267,19 @@ pre {
 	overflow: auto;
 }
 
-.about {
+aside .secondary {
 	color: #555;
 }
 
-h1.about {
+aside h1.secondary {
 	border-color: #aaa;
 }
 
-p.about {
+aside p.secondary {
 	font-size: 80%;
 }
 
-.about a {
+aside .secondary a {
 	font: inherit;
 	display: inline;
 	text-decoration: none;
@@ -282,7 +287,7 @@ p.about {
 	color: #555;
 }
 
-.about a:hover {
+aside .secodary a:hover {
 	border-bottom: 1px dashed gray;
 }
 
@@ -314,4 +319,8 @@ p.about {
 
 #sitemap p {
 	line-height: 120%;
+}
+
+#disqus_thread {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
 }

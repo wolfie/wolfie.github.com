@@ -18,24 +18,34 @@
 				{{ content }}
 			</div><!--
 			--><aside>
-				<h1>most recent</h1>
-				{% for post in site.posts | limit:10 %}
-					<a href="{{ post.url }}"><div class="menulink">
-						<div class="title">{{ post.title }}</div>
-						<time>{{ post.date | date:"%d.%m.%Y" }}</time>
-					</div></a>
-				{% endfor %}
+				<nav>
+					<h1>most recent</h1>
+					{% for post in site.posts | limit:10 %}
+						<a href="{{ post.url }}"><div class="menulink">
+							<div class="title">{{ post.title }}</div>
+							<time>{{ post.date | date:"%d.%m.%Y" }}</time>
+						</div></a>
+					{% endfor %}
+					
+					<a href="/sitemap.html#older" id="sitemaplink">&hellip;to the archives!</a>
+				</nav>
 				
-				<a href="/sitemap.html#older" id="sitemaplink">&hellip;to the archives!</a>
-
-				
-				<h1 class="about">who is this guy?</h1>
-				<p class="about">
+				<h1 class="secondary">who is this guy?</h1>
+				<p class="secondary">
 					Hi, my name is Henrik Paul. I'm a professional software developer from the little city of <a href="http://maps.google.com/maps?q=Raisio, Finland&amp;z=14" target="_blank">Raisio, Finland</a>. I currently work for <a href="http://www.itmill.com" target="_blank">IT Mill</a> and mostly with <a href="http://vaadin.com/" target="_blank">Vaadin</a>.
 				</p>
-				<p class="about">
+				<p class="secondary">
 					You can find me on <a href="http://twitter.com/henrikpaul/" target="_blank">Twitter</a>, <a href="http://stackoverflow.com/users/2238/henrik-paul" target="_blank">Stack Overflow</a> and IRC ("Wolfie" on IRCNet &amp; Freenode).
 				</p>
+				
+				<h1 class="secondary">license</h1>
+				<p class="secondary">
+					All content of this blog is licensed by the Creative Commons <a href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Attribution-NonCommercial 3.0</a> license.
+				</p>
+				<p class="secondary">
+					In short, as long as you mention my name (Henrik Paul), link back to the original article, and don't make money off of it, you're free to do whatever you want with what I write here.
+				</p>
+				
 			</aside>
 		</div>
 
