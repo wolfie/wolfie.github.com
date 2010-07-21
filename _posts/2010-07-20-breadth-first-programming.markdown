@@ -66,8 +66,6 @@ Think of it, instead of "writing the absolute minimum amount of code needed to g
 
 <span style="font-size: 80%; line-height: 1.5em"><a name="alpha-down">* The way the gaming industry defines an alpha release is when all the gaming elements are in place. Levels can be navigated as they should, the power ups and items are in their place, etc. The graphics might still look like crap, textures are missing, and the final polish isn't there. But the feel and the gameplay mechanics are in place, from start to finish. <a href="#alpha-up">back up</a></span>
 
-<span style="font-size: 80%; line-height: 1.5em">** Well, it is, when you're doing something for yourself, alone, in your murky basement. But I'm talking about when you're writing something that would be used by others. <a name="fun-down"><a href="#fun-up">back up</a></span>
-
 [memento]: http://en.wikipedia.org/wiki/Memento_pattern
 [observer]: http://en.wikipedia.org/wiki/Observer_pattern
 [dp]: http://en.wikipedia.org/wiki/Design_pattern_(computer_science)
