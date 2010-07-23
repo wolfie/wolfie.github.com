@@ -60,7 +60,7 @@ But I'm not advising against using design patterns. Patterns are excellent, when
 
 Developers love to polish their code into perfection. The trouble is, polishing kills momentum. Also, if it turns out that something you have polished for days on end is unnecessary after all, it's very hard to throw it away. It has become your baby, and you're attached to it. You would do your best to try to keep it around: The baby of polished, useless code.
 
-So, Breath-First Programming is about completing your project as fast as possible. This way, you know what code you need to have to make it work. Unpolished code is easy to throw away, leading to optimal codebase. 
+So, Breadth-First Programming is about completing your project as fast as possible. This way, you know what code you need to have to make it work. Unpolished code is easy to throw away, leading to optimal codebase. 
 
 Think of it, instead of "writing the absolute minimum amount of code needed to get a certain unit test to pass", as "writing the absolute minimum amount of code needed to complete your application". Once you're done with the breadth of the code, you're free to add depth to it. Since you're now ahead of your schedule, it's refactoring time!
 
