@@ -91,7 +91,7 @@ The laptop comes with 1GB of RAM installed. Since Windows 7 is pretty decent in 
 
 But as soon as Eclipse entered the game, everything just started halting. Keeping Eclipse in the background for a while and then swapping back took a good  minute to get it going again.
 
-Lucky for me, and decent of Samsung, the memory is very easily replaced with a max of one 2GB SODIMM chip. Unfortunately, this added 50&euro; to the price of the laptop, making the total cost of ownership 400&euro;.
+Lucky for me, and decent of Samsung, the memory is very easily replaced with a max of one 2GB SODIMM chip. Unfortunately, this added 50&euro; to the price of the laptop, making the total cost of ownership 400&euro;. After I installed the 2GB memory, I've been able to use the computer without inhibition. Eclipse now runs as smoothly as anything.
 
 ### Bonus: Everything Else
 
@@ -106,5 +106,7 @@ A laptop should be portable, otherwise it's just a computer with a battery. This
 Another great worry I had was whether or not I'd still use the netbook after this little experiment. While 400&euro; isn't terribly much, it's not so little that I'd spend it willy-nilly.
 
 I'm glad I took the chance, since I now consider it as my primary laptop. The Mac laptop on my desk (incidentally, currently underneath the netbook, as I write this post) as merely an underventilated computer with a battery.
+
+The ultimate answer is a resounding "yes". A netbook can be used for programming, and I say this without any kind of hesitation. I wouldn't use it as the _primary_ coding computer, but certainly as a mobile back-up.
 
 Whenever I expect being bored and stationary for a longer period of time, I'll surely take with me the little Sammy that could.
