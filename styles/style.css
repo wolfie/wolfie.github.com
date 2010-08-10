@@ -160,6 +160,11 @@ abbr, acronym {
 	float: left;
 }
 
+#content .caption {
+	font-style: italic;
+	color: #555;
+}
+
 #content blockquote {
 	background-color: #f0f0f0;
 	padding: 0.5em;
