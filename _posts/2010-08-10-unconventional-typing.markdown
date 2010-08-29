@@ -17,11 +17,11 @@ When researching on which I'd be interested in, I had a list of things that it m
 * Excellent portability
 * Long battery life
 
-The price and a good keyboard were by far the most important criteria. Since no netbook manufacturer had the courtesy of answering my queries on review units, the price needed to be in the "justifiable to the wife" category. Also, as the computer was for intended for coding, thus heavy typing, the keyboard must be comfortable to write on.
+The price and a good keyboard were by far the most important criteria. Since no netbook manufacturer had the courtesy of answering my queries on review units, the price needed to be in the "justifiable to the wife" category. Also, as the computer was intended for coding, thus heavy typing, the keyboard must be comfortable to write with.
 
-There were a couple makes and models that I narrowed my list down to, but ultimately decided on [Samsung N220](http://www.google.fi/search?q=samsung+n220).
+There were a couple makes and models that I narrowed my list down to, but ultimately ended up choosing the [Samsung N220](http://www.google.fi/search?q=samsung+n220).
 
-<div style="text-align: center"><img src="/media/unconventional-typing/samsung_n200.jpg"></div>
+<div style="text-align: center"><img src="/media/unconventional-typing/samsung_n200.jpg"/></div>
 
 ## Specs
 
@@ -43,7 +43,7 @@ After fully committing myself to writing code (for [Bob](http://wiki.github.com/
 
 It's 10.1" and 1024&times;600 pixels. That's not terribly much to work with, compared to the 20" and 1680&times;1050 Samsung I keep attached to my 15" MacBook Pro, itself being 1440&times;900.
 
-So, I had my hesitations. In fact, this was the biggest thing that I felt scared of in a netbook; while Eclipse doesn't all too much chrome around its UI, you really can't have too much screen estate in use when programming.
+So, I had my hesitations. In fact, this was the biggest thing that I felt scared of in a netbook; while Eclipse doesn't have much chrome in its UI, you really can't have too much screen estate in use when programming.
 
 <div style="text-align:center"><img src="/media/unconventional-typing/netbook-eclipse.png"/>
 <div class="caption">The workspace configuration for Eclipse at the netbook's full resolution.</div>
@@ -53,9 +53,9 @@ But I was pleasantly surprised with how well it sufficed. As seen in the screens
 
 ### Keyboard
 
-Since the screen is so small, the keyboard must be as small. If I put my palms on each edge of the keyboard and extend my thumbs, they overlap about half the thumbs' lengths. So, it's nothing compared to an aergonomic split layout keyboard, but it could be considerably worse.
+Since the screen is so small, the keyboard must be as small. If I put my palms on each edge of the keyboard and extend my thumbs, they overlap about half the thumbs' lengths. So, it's nothing compared to an ergonomic split layout keyboard, but it could be considerably worse.
 
-The keys are flat rounded squares protruding about a millimeter from the keyboard base. Just like the modern Apple keyboards. Their touch and feel is excellent. Although the keys are somewhat crammed together, once my hands have settled in to their native positions, I haven't missed any keys I shouldn't miss.
+The keys are flat rounded squares protruding about a millimeter from the keyboard base, just like the modern Apple keyboards. Their touch and feel is excellent. Although the keys are somewhat crammed together, once my hands have settled into their native positions, I haven't missed any keys I shouldn't miss.
 
 I say "shouldn't miss" with great intent, since there are some totally wonky key placements. Mind you, I have a Finnish keyboard layout, so your mileage will vary on the following. 
 
@@ -89,15 +89,15 @@ All-in-all, the trackpad is the weakest spot in this computer, by far.
 
 The laptop comes with 1GB of RAM installed. Since Windows 7 is pretty decent in its memory usage, and there wasn't terribly much bundleware upon startup, it was enough for doing the netbook-y stuff; having a browser and a few other windows open was no problem.
 
-But as soon as Eclipse entered the game, everything just started halting. Keeping Eclipse in the background for a while and then swapping back took a good  minute to get it going again.
+But as soon as Eclipse entered the game, everything went sluggish. Keeping Eclipse in the background for a while and then swapping back took a good  minute to get it going again.
 
-Lucky for me, and decent of Samsung, the memory is very easily replaced with a max of one 2GB SODIMM chip. Unfortunately, this added 50&euro; to the price of the laptop, making the total cost of ownership 400&euro;. After I installed the 2GB memory, I've been able to use the computer without inhibition. Eclipse now runs as smoothly as anything.
+Luckily for me, and decent of Samsung, the memory is very easily replaced with a max of one 2GB SODIMM chip. Unfortunately, this added 50&euro; to the price of the laptop, making the total cost of ownership 400&euro;. After I installed the 2GB memory, I've been able to use the computer without inhibition. Eclipse now runs as smoothly as anything.
 
 ### Bonus: Everything Else
 
 So, I just explained in detail what I think of the screen, keyboard, trackpad and memory for programming purposes. I'll now give a quick skim over the rest that might matter.
 
-I've always thought that the [Atoms](http://en.wikipedia.org/wiki/Intel_Atom) are just slow as molasses, and should be avoided at all costs. Lo and behold, it turns out that I was very wrong. Aside of having trouble playing high-res flash video (i.e. a 480p YouTube video at full screen), I've seen no unexpected choppiness or slowness in my use. It's actually very good, even for programming.
+I've always thought that the [Atoms](http://en.wikipedia.org/wiki/Intel_Atom) are just slow as molasses, and should be avoided at all costs. Lo and behold, it turns out that I was very wrong. Aside from having trouble playing high-res flash video (i.e. a 480p YouTube video at full screen), I've seen no unexpected choppiness or slowness in my use. It's actually very good, even for programming.
 
 A laptop should be portable, otherwise it's just a computer with a battery. This, indeed is portable. It's even more portable than my MacBook Pro is &ndash; all 5 inches more portable. Size and weight indeed do matter in this case. Taking the netbook anywhere and everywhere with you is a no-brainer. The battery life doesn't make me even consider taking the charger with me, and it's just so light and small that it's not really something I even consider "carrying around", it just comes right along. It takes very little tabletop space, so pretty much any area that is enough to be called "a surface" is enough. Also, lifting it effortlessly with one hand from the coffee table to the sofa, wherein I lie, makes it so much more attractive for casual use.
 
@@ -107,6 +107,6 @@ Another great worry I had was whether or not I'd still use the netbook after thi
 
 I'm glad I took the chance, since I now consider it as my primary laptop. The Mac laptop on my desk (incidentally, currently underneath the netbook, as I write this post) as merely an underventilated computer with a battery.
 
-The ultimate answer is a resounding "yes". A netbook can be used for programming, and I say this without any kind of hesitation. I wouldn't use it as the _primary_ coding computer, but certainly as a mobile back-up.
+The ultimate answer is a resounding "yes", a netbook can be used for programming. I say this without any kind of hesitation. I wouldn't use it as the _primary_ coding computer, but certainly as a mobile back-up.
 
 Whenever I expect being bored and stationary for a longer period of time, I'll surely take with me the little Sammy that could.
