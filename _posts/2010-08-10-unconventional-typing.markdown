@@ -6,6 +6,8 @@ summary: A blog post describing my experiment of writing code with only a netboo
 
 A couple of months ago, my brain got stuck on an idea. My brain often does that, and I can't really be at ease until I even try to realize that idea (this blog is definitely one of them). So, I went about uneasy for a good couple of weeks until I gave in: I decided to get myself a netbook. For coding.
 
+<!--break-->
+
 ## Selection Criteria
 
 When researching on which I'd be interested in, I had a list of things that it must fulfill:

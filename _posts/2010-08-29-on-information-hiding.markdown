@@ -10,6 +10,8 @@ Recently, I've had two notable encounters of a specific topic that I simply need
 
 After I read [Code Complete](http://www.amazon.com/gp/product/0735619670?ie=UTF8&tag=lightfdevblo-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0735619670) a few years back, it simply dawned upon me why information hiding is totally awesome. But it seems that all too many programmers haven't read it, and therefore I have met people being confused by the idea. Not confused in the "what does it mean?"-way, but rather in a way that they can't see the point.
 
+<!--break-->
+
 The main comments I've heard against information hiding can be summed up in "It won't make your software any more secure, since I have [reflection](http://java.sun.com/developer/technicalArticles/ALT/Reflection/) anyways" and "Why can't I access this private field I absolutely need?"
 
 ## Hiding in Security
@@ -34,7 +36,7 @@ My point is that I write the parts I need to make stuff work my way as fast as p
 
 Case in point: Take `java.lang.Integer`, having a private `int value` field that stores the primitive integer value of the `Integer` object. Imagine for a second that you could do the following:
 
-{% highlight "java" %}
+{% highlight java %}
 Integer i = Integer.valueOf(1);
 i.value = 3;
 System.out.println(i); // Output: "3"

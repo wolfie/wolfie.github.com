@@ -10,8 +10,10 @@ title: Cryptic Confessions of a Coder
 		<span class="time">written on <time>{{ post.date | date:"%d.%m.%Y" }}</time></span>
 	</h1>
 	
-	<div class="content">{{ post.content }}</div>
-	<p class="articlelink"><a href="{{ post.url }}">Link to post</a></p>
+	<div class="content">{{ post.content | split:'<!--break-->' | first }}</div>
+		{% if post.content contains '<!--break-->' %}
+			<p class="articlelink"><a href="{{ post.url }}">read more&hellip;</a></p>
+		{% endif %}
 	<hr class="articleseparator">
 	{% endfor %} 
 </div>

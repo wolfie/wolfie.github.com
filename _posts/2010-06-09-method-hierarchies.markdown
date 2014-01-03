@@ -14,6 +14,8 @@ And I realize that Jim has a point: Reading highly fragmented code to find a par
 
 Unfortunately, it seems like we can't have it both ways.
 
+<!--break-->
+
 ## Exhibit &ldquo;A&rdquo;
 
 Take a look at Robert C. Martin's (aka. Uncle Bob) [_Bad Code_ talk][badcode] &ndash; the bit between 00:14:25 and 00:21:35. Do that right now. Watch the snippet, and come then back here.

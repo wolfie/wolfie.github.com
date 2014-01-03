@@ -6,6 +6,8 @@ summary: Getting too obsessed with design patterns is counter-productive.
 
 A cornerstone of the [test-driven development][tdd] movement is to write the absolute minimum amount of code needed to get a certain unit test to pass. I like that idea. I like it so much, that I want it to be extracted from the TDD world for others to enjoy &ndash; no unit tests required.
 
+<!--break-->
+
 After looking at an endless stream of [God of War][gow] how-it-was-made videos and learning the gaming industry's definition of _alpha_<a name="alpha-up" href="#alpha-down">*</a>, and seeing a certain XKCD-strip, I got the idea for this post.
 
 <a href="http://xkcd.com/761/" target="_blank">
@@ -24,7 +26,7 @@ Design patterns aren't a goal for themselves. They take time to implement, and o
 
 Consider the following piece of code:
 
-{% highlight:java %}
+{% highlight java %}
 public enum Command { CHECK_MAIL, BREW_COFFEE }
 
 public void execute(Command command) {
